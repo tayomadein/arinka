@@ -7,8 +7,7 @@
 
 html, body {
     font-family: 'Catamaran', sans-serif !important; /* Set font */
-    font-size: 1em;
-    line-height: 1.4;
+    line-height: 1.8;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -26,6 +25,11 @@ a {
     width: 150px;
     height: 30px;
     line-height: 30px;
+}
+
+h4 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 /* Header Section */
@@ -75,7 +79,7 @@ li {
     padding: 0 10px;
 }
 .menu a:hover {
-    color: #c5cae9;
+    color: #c0c0c0;
 }
 
 .pull-right {
@@ -90,7 +94,8 @@ li {
 /* Intro */
 .intro {
     text-align: center;
-    margin: 70px 300px 0 300px;
+    width: 40%;
+    margin: auto;
 }
 
 .intro h1 {
@@ -112,6 +117,20 @@ li {
     -webkit-box-shadow: 0 0 0 1000px white inset !important;
 }
 
-h4 {
-    text-transform: uppercase;
+/* About Section */
+.about {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.about h4 {
+    color: #c0c0c0;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.about p {
+    font-size: 0.9em;
+    margin-bottom: 30px;
 }
