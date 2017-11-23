@@ -1,0 +1,82 @@
+/* General */
+html, body {
+    font-family: 'Catamaran', sans-serif !important; /* Set font */
+    font-size: 1em;
+    line-height: 1.4;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header Section */
+.header-container {
+    height: 478px;
+    background: #ee0979;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(#ee0979, #ff6a00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(#ee0979, #ff6a00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Nav */
+.navbar {
+    text-transform: uppercase;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    font-size: 0.8em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    clear: both;
+}
+
+.pull-left {
+    font-weight: 600;
+    padding: 0 25px;
+    /* float: left; */
+}
+
+/* .fa-plane {
+    font-size: 3em;
+} */
+
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+/* Create a horizontal list with spacing margin: 0 5px 0 5px; */
+li {
+    display:inline-block;
+}
+
+.menu a {
+    padding: 0 10px;
+}
+.menu a:hover {
+    color: #c5cae9;
+}
+
+.pull-right {
+    padding: 10px 25px;
+    /* float: right; */
+}
+
+.btn {
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+}

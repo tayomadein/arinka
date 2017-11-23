@@ -11,68 +11,82 @@
     <title>Arinka</title>
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:400,600" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
     <!-- Custom Styles-->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <header class="container">
-        <!-- Avatar/Logo/Placeholder -->
-        <a href="#">
-            <i class="fa fa-plane"></i> ARINKA</a>
+    <header class="header-container">
+        <nav class="navbar">
+            <div class="pull-left">
+                <!-- Menu Icon Placeholder -->
+                <a href="#" class="toggle">
+                    <i class="fa fa-reorder"></i>
+                </a>
 
-        <!-- Header Text and Byline -->
-        <ul>
-            <li>
-                <a href="#locations">Locations</a>
-            </li>
-            <li>
-                <a href="#moods">Moods</a>
-            </li>
-            <li>
-                <a href="#blog">Blog</a>
-            </li>
-        </ul>
+                <!-- Avatar/Logo/Placeholder -->
+                <a href="#" class="logo">
+                    <i class="fa fa-plane"></i>
+                    Arinka
+                </a>
+            </div>
 
-        <a href="#" class="btn">Login/Signup</a>
-    </header>
+            <!-- Header Text and Byline -->
+            <ul class="menu">
+                <li>
+                    <a href="#locations">Locations</a>
+                </li>
+                <li>
+                    <a href="#moods">Moods</a>
+                </li>
+                <li>
+                    <a href="#blog">Blog</a>
+                </li>
+            </ul>
 
-    <div class="jumbotron">
-        <!-- CTA Box -->
-        <div class="container text-center">
-            <h2>Discover the best places to travel to in Nigeria</h2>
-            <br>
-            <p>What type of adventure are you looking for?</p>
-            <input type="text" name="search" placeholder="e.g. educational, outdoors, relaxed">
+            <div class="pull-right">
+                <a href="#" class="btn">Login/Signup</a>
+            </div> 
+        </nav>
+        <div class="intro">
+            <!-- CTA Box -->
+            <div class="container text-center">
+                <h2>Discover the best places to travel to in Nigeria</h2>
+                <br>
+                <p>What type of adventure are you looking for?</p>
+                <input type="text" name="search" placeholder="e.g. educational, outdoors, relaxed">
+            </div>
         </div>
-    </div>
+    </header>
 
     <section id="about-us">
         <h4>About Us</h4>
-        <p>Arinka is a fictional company, but actually a real idea someone had sometime in the past. In 1985 Aldus Corporation launched its first desktop publishing program Aldus PageMaker for Apple Macintosh computers, released in 1987 for PCs running Windows 1.0. Both contained the variant lorem ipsum most common today.</p>
+        <p>Arinka is a fictional company, but actually a real idea someone had sometime in the past. In 1985 Aldus Corporation
+            launched its first desktop publishing program Aldus PageMaker for Apple Macintosh computers, released in 1987
+            for PCs running Windows 1.0. Both contained the variant lorem ipsum most common today.</p>
     </section>
 
     <section id="locations">
         <div class="container">
             <img src="https://unsplash.com/photos/DGa0LQ0yDPc/download" alt="bauchi-park" style="width:100%;">
             <div class="bottom-left">
-                <h4>Bauchi Park</h4>
+                <h5>Bauchi Park</h5>
                 <p>Relaxed holiday for two</p>
             </div>
         </div>
         <div class="container">
             <img src="https://unsplash.com/photos/FSDWAMlsqDY/download" alt="jos-plateau" style="width:100%;">
             <div class="bottom-left">
-                <h4>Jos Plateau</h4>
+                <h5>Jos Plateau</h5>
                 <p>Experience Nigeria in the 90s</p>
             </div>
         </div>
         <div class="container">
             <img src="https://unsplash.com/photos/u6BPMXgURuI/download" alt="abuja-car" style="width:100%;">
             <div class="bottom-left">
-                <h4>Abuja Car Racing</h4>
+                <h5>Abuja Car Racing</h5>
                 <p>Get Your Adrenaline Pumping</p>
             </div>
         </div>
