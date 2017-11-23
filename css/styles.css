@@ -1,4 +1,10 @@
 /* General */
+*, *:before, *:after {
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
 html, body {
     font-family: 'Catamaran', sans-serif !important; /* Set font */
     font-size: 1em;
@@ -13,9 +19,19 @@ a {
     color: inherit;
 }
 
+.btn {
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+}
+
 /* Header Section */
 .header-container {
-    height: 478px;
+    color: #fff;
+    height: 400px;
     background: #ee0979;  /* fallback for old browsers */
     background: -webkit-linear-gradient(#ee0979, #ff6a00);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(#ee0979, #ff6a00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -29,7 +45,6 @@ a {
     height: 50px;
     line-height: 50px;
     font-size: 0.8em;
-    color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,7 +54,6 @@ a {
 .pull-left {
     font-weight: 600;
     padding: 0 25px;
-    /* float: left; */
 }
 
 /* .fa-plane {
@@ -53,7 +67,6 @@ ul {
     text-align: center;
 }
 
-/* Create a horizontal list with spacing margin: 0 5px 0 5px; */
 li {
     display:inline-block;
 }
@@ -67,16 +80,38 @@ li {
 
 .pull-right {
     padding: 10px 25px;
-    /* float: right; */
 }
 
-.btn {
+.btn-nav {
     background-color: rgba(255, 255, 255, 0.4);
     border: none;
-    border-radius: 20px;
+}
+
+/* Intro */
+.intro {
     text-align: center;
-    display: inline-block;
-    width: 150px;
-    height: 30px;
-    line-height: 30px;
+    margin: 70px 300px 0 300px;
+}
+
+.intro h1 {
+    font-weight: 900;
+}
+
+.intro input {
+    width: 400px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid #ee0979;
+    text-align: center;
+    border-radius: 20px;
+    outline: none; 
+}
+
+.intro input:-webkit-autofill {
+    box-shadow: 0 0 0 1000px white inset !important;
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+}
+
+h4 {
+    text-transform: uppercase;
 }
