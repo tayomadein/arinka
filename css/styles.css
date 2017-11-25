@@ -30,15 +30,16 @@ a {
 h4 {
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-weight: normal;
 }
 
 /* Header Section */
 .header-container {
     color: #fff;
     height: 400px;
-    background: #ee0979;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(#ee0979, #ff6a00);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(#ee0979, #ff6a00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #e6725a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(#e6725a, #ffb663);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(#e6725a, #ffb663); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* Nav */
@@ -106,7 +107,7 @@ li {
     width: 400px;
     height: 45px;
     line-height: 45px;
-    border: 1px solid #ee0979;
+    border: 1px solid #e6725a;
     text-align: center;
     border-radius: 20px;
     outline: none; 
@@ -126,11 +127,82 @@ li {
 
 .about h4 {
     color: #c0c0c0;
-    margin-top: 100px;
-    margin-bottom: 30px;
+    padding-top: 100px;
+    padding-bottom: 30px;
 }
 
 .about p {
     font-size: 0.9em;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+/* Location Section */
+.location-container{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.location {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0 70px 0;
+}
+
+.container {
+    position: relative;
+    width: 350px;
+    height: 400px;
+    background-size: cover;
+}
+
+.bauchi {
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(https://unsplash.com/photos/DGa0LQ0yDPc/download);
+}
+
+.jos {
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(https://unsplash.com/photos/FSDWAMlsqDY/download);
+}
+
+.abuja {
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(https://unsplash.com/photos/u6BPMXgURuI/download);
+}
+
+.bottom-left {
+    position: absolute;
+    text-align: left;
+    left: 30px;
+    top: 300px;
+}
+
+.bottom-left h5 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.bottom-left p {
+    color: #e6725a;
+    font-size: 16px;
+    margin: 0;
+}
+
+.btn-more {
+    border: 1px solid #e6725a;
+    color: #e6725a;
 }
