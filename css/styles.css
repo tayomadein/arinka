@@ -139,7 +139,7 @@ li {
 /* Location Section */
 .location-container{
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
 }
 
 .location {
@@ -205,4 +205,47 @@ li {
 .btn-more {
     border: 1px solid #e6725a;
     color: #e6725a;
+}
+
+/* Blog */
+.blog {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://unsplash.com/photos/YVMINsxTIKY/download);
+}
+
+.clippy {
+    height: 500px;
+    margin-left: -20%;
+    width: 65%;
+    background: #e6725a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(#e6725a, #ffb663);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(#e6725a, #ffb663); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.mid-left {
+    position: absolute;
+    text-align: left;
+    width: 30%;
+    left: 10%;
+    top: 40%;
+}
+
+.mid-left h4 {
+    margin: 0;
+    color: #ffb663; 
+    font-size: 16px;
+}
+
+.mid-left h2 {
+    margin: 0;
+    color: white;
+    font-size: 72px;
+    font-weight: normal;
+    line-height: 100%;
 }
