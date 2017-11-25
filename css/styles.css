@@ -161,7 +161,7 @@ li {
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
     ),
-    url(https://unsplash.com/photos/DGa0LQ0yDPc/download);
+    url(http://res.cloudinary.com/tayomadein/image/upload/v1511588396/manuel-moreno-39516_fm42bj.jpg);
 }
 
 .jos {
@@ -170,7 +170,7 @@ li {
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
     ),
-    url(https://unsplash.com/photos/FSDWAMlsqDY/download);
+    url(http://res.cloudinary.com/tayomadein/image/upload/v1511588385/nitin-garg-327400_e0fvvu.jpg);
 }
 
 .abuja {
@@ -179,7 +179,7 @@ li {
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
     ),
-    url(https://unsplash.com/photos/u6BPMXgURuI/download);
+    url(http://res.cloudinary.com/tayomadein/image/upload/v1511588392/gabriel-gurrola-125352_hiknpn.jpg);
 }
 
 .bottom-left {
@@ -214,7 +214,7 @@ li {
     height: 500px;
     background-size: cover;
     background-position: center;
-    background-image: url(https://unsplash.com/photos/YVMINsxTIKY/download);
+    background-image: url(http://res.cloudinary.com/tayomadein/image/upload/v1511588398/charlie-costello-301722_y6whhm.jpg);
 }
 
 .clippy {
