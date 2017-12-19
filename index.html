@@ -21,10 +21,10 @@
 
 <body>
     <header class="header-container">
-        <nav class="navbar">
+        <nav class="navbar" id="navbar">
             <div class="pull-left">
                 <!-- Menu Icon Placeholder -->
-                <a href="#" class="toggle">
+                <a href="javascript:void(0);" class="toggle" onclick="resMenu()">
                     <i class="fa fa-reorder"></i>
                 </a>
 
@@ -36,7 +36,7 @@
             </div>
 
             <!-- Menu -->
-            <ul class="menu">
+            <ul class="menu" id="menu">
                 <li>
                     <a href="#locations">Locations</a>
                 </li>
@@ -55,9 +55,10 @@
         <div class="intro">
             <!-- CTA Box -->
             <h1>Discover the best places to travel to in Nigeria</h1>
-            <br>
-            <p>What type of adventure are you looking for?</p>
-            <input type="text" name="search" placeholder="e.g. educational, outdoors, relaxed">
+            <div class="intro-input">
+                <p>What type of adventure are you looking for?</p>
+                <input type="text" name="search" placeholder="e.g. educational, outdoors, relaxed">
+            </div>
         </div>
     </header>
 
@@ -102,9 +103,10 @@
 
     <footer>
         <small>Terms and Conditions</small>
-        <small>Designed by tayomadein</small>
+        <!-- <small>Designed by tayomadein</small> -->
         <small>Copyright Frontstack 2017</small>
     </footer>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
